@@ -1,0 +1,21 @@
+{
+  "name": "polymarket-odds-api",
+  "version": "1.0.0",
+  "description": "Real-time Polymarket prediction market odds — pay $0.001 per call via Circle x402 nanopayments",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@x402/core": "^2.13.0",
+    "@x402/evm": "^2.13.0",
+    "@x402/express": "latest",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
