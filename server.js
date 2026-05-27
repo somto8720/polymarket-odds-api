@@ -212,7 +212,7 @@ app.get("/markets", x402Gate, async (req, res) => {
 });
 
 // ── Start ─────────────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`
 ╔══════════════════════════════════════════════════════════════╗
 ║       Polymarket Odds API — Arc Edition  v2.0.0              ║
